@@ -27,6 +27,30 @@
             "xhigh": "max",
             "max": "max"
           }
+        },
+        {
+          "id": "MiMo-V2.6-Pro-MOPD-FLATIRON",
+          "reasoning": true,
+          "input": ["text", "image"],
+          "contextWindow": 1048576,
+          "maxTokens": 131072,
+          "cost": { "input": 0, "output": 0, "cacheRead": 0, "cacheWrite": 0 },
+          "compat": {
+            "supportsStore": false,
+            "supportsDeveloperRole": false,
+            "supportsReasoningEffort": true,
+            "thinkingFormat": "openai",
+            "maxTokensField": "max_completion_tokens"
+          },
+          "thinkingLevelMap": {
+            "off": "high",
+            "minimal": "high",
+            "low": "high",
+            "medium": "high",
+            "high": "high",
+            "xhigh": "high",
+            "max": "high"
+          }
         }
       ]
     }
